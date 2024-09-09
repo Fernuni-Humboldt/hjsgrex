@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahlenformatierung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zahlenformatierung</h1>
+    <p id="formatted-number"></p>
+
+    <script>
+        // Direkt im Script definierte Zahl
+        const number = 101100;
+
+        // Die Zahl formatieren und in das HTML-Element einfügen
+        document.getElementById('formatted-number').textContent = number.toLocaleString('de-DE');
+    </script>
+</body>
+</html>

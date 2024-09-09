@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktuelles Datum</title>
+</head>
+<body>
+    <h1>Aktuelles Datum</h1>
+    <p id="datum"></p> <!-- Hier wird das Datum angezeigt -->
+
+    <script>
+        // Funktion zum Formatieren des Datums
+        function formatDate(date) {
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = String(date.getMonth() + 1).padStart(2, '0'); // Monate sind 0-basiert
+            const year = date.getFullYear();
+            
+            return `${day}.${month}.${year}`;
+        }
+
+        // Aktuelles Datum holen
+        const currentDate = new Date();
+
+        // Datum formatieren
+        const formattedDate = formatDate(currentDate);
+
+        // Datum in das HTML-Element einfügen
+        document.getElementById('datum').textContent = formattedDate;
+    </script>
+</body>
+</html>

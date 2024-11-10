@@ -29,8 +29,10 @@ CookieConsent.run({
         translations: {
             de: {
                 consentModal: {
-                    title: "Hallo Reisende, es ist Kekszeit!",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+                    title: "Cookie Hinweis",
+                    description: "Wir benötigen Ihre Zustimmung, bevor Sie auf unserer Website fortfahren können.
+Wenn Sie unter 16 Jahre alt sind und optionalen Diensten zustimmen möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis fragen.
+Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen), beispielsweise für personalisierte Anzeigen und Inhalte oder Anzeigen- und Inhaltsmessung.",
                     acceptAllBtn: "Alle akzeptieren",
                     acceptNecessaryBtn: "Alle ablehnen",
                     showPreferencesBtn: "Einstellungen verwalten",
